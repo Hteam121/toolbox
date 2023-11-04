@@ -121,7 +121,7 @@ const StartupQuestions = () => {
               </ButtonsWrapper>
             </>
           )}
-          {step === 3 && <ChatWindow><Chatbot /></ChatWindow>}
+          {step === 3 && <ChatWindow><Chatbot completedStartup={true} /></ChatWindow>}
         {/* </ContentBox> */}
       </>
     );
